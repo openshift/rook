@@ -613,6 +613,8 @@ spec:
                             minimum: 0
                             maximum: 10
                             type: integer
+                          targetSizeRatio:
+                            type: number
                           requireSafeReplicaSize:
                             type: boolean
                           replicasPerFailureDomain:
@@ -854,6 +856,8 @@ spec:
                       properties:
                         size:
                           type: integer
+                        targetSizeRatio:
+                          type: number
                         requireSafeReplicaSize:
                           type: boolean
                         replicasPerFailureDomain:
@@ -1083,6 +1087,8 @@ spec:
                       properties:
                         size:
                           type: integer
+                        targetSizeRatio:
+                          type: number
                         requireSafeReplicaSize:
                           type: boolean
                     erasureCoded:
